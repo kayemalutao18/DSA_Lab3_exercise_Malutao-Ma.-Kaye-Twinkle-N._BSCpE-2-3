@@ -1,0 +1,7 @@
+list1 = [1, 2, 3]
+list2 = ["maria", "kaye", "twinkle"]
+
+listOfTuple = [(list1[i], list2[i]) for i in range(len(list1))]
+
+print(listOfTuple)
+# Output: [(1, 'maria'), (2, 'kaye'), (3, 'twinkle')]
